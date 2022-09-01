@@ -73,5 +73,99 @@ body {
     flex-basis: 50%;
 }
 
+.info-panel {
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.info-header {
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+}
+
+.info-images-panel {
+    display: flex;
+    flex-flow: column wrap;
+    height: 250px;
+    align-items: center;
+    margin: 0 18% 6em 18%;
+}
+
+.info-image {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+
+}
+
+.info-subtxt {
+    text-align: center;
+    width: 240px;
+    color: #1F2937;
+}
 
 
+.quote-panel {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+    font-style: italic;
+    margin: 4em 20% 6px 19%;
+}
+
+.attribution {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: right;
+    margin-right: 20%;
+    margin-bottom: 3em;
+}
+
+.action-panel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    color: white;
+    margin: 4em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+    padding: 3em 6em;
+    border-radius: 6px;
+}
+
+.cta-title {
+    font-weight: bolder;
+    font-size: larger;
+    margin-bottom: 4px;
+}
+
+.cta-btn {
+    background-color: #3882F6;
+    border: 2px solid white;
+    color: white;
+    padding: 2px 3em;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer {
+    color: white;
+    background-color: #1F2937;
+    text-align: center;
+    padding: 2em;
+}
